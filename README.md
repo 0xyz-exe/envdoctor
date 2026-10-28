@@ -18,6 +18,27 @@
 
 ---
 
+## Visual Showcase
+
+<div align="center">
+
+### CLI Terminal Diagnostics Scan
+<img src="docs/screenshots/terminal-scan.png" width="100%" alt="CLI Terminal Scan" />
+
+<br/><br/>
+
+### Category Filtering & Runtime Diagnostics
+<img src="docs/screenshots/runtimes-view.png" width="100%" alt="Filtered Runtimes View" />
+
+<br/><br/>
+
+### Sanitized Report Export Preview (Markdown / JSON)
+<img src="docs/screenshots/export-modal.png" width="100%" alt="Export Preview Modal" />
+
+</div>
+
+---
+
 ## Repository Details
 
 - **GitHub Repository:** [`https://github.com/0xyz-exe/envdoctor`](https://github.com/0xyz-exe/envdoctor)
