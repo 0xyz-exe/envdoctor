@@ -12,30 +12,35 @@
   <img src="https://img.shields.io/badge/security-zero%20secrets%20leaked-success.svg" alt="Security" />
 </p>
 
-<p align="center">
-  <img src="docs/screenshots/dashboard.png" width="100%" alt="EnvDoctor Dashboard" />
-</p>
+![EnvDoctor Dashboard](docs/screenshots/dashboard.png)
 
 ---
 
-## Visual Showcase
+## Screenshots
 
-<div align="center">
+### 1. Dashboard Overview
 
-### CLI Terminal Diagnostics Scan
-<img src="docs/screenshots/terminal-scan.png" width="100%" alt="CLI Terminal Scan" />
+The main diagnostics dashboard surfaces a categorized summary of every check result — runtimes, PATH variables, `.env` files, port conflicts, and package manager state — with colour-coded pass/warn/fail indicators and a global health score at a glance.
 
-<br/><br/>
+![EnvDoctor Dashboard](docs/screenshots/dashboard.png)
 
-### Category Filtering & Runtime Diagnostics
-<img src="docs/screenshots/runtimes-view.png" width="100%" alt="Filtered Runtimes View" />
+### 2. CLI Terminal Diagnostics Scan
 
-<br/><br/>
+The terminal scan mode streams live check output directly to the console, showing each probe as it runs with its detected value, expected range, and an actionable remediation command when a fault is found.
 
-### Sanitized Report Export Preview (Markdown / JSON)
-<img src="docs/screenshots/export-modal.png" width="100%" alt="Export Preview Modal" />
+![CLI Terminal Diagnostics Scan](docs/screenshots/terminal-scan.png)
 
-</div>
+### 3. Category Filtering & Runtime Diagnostics
+
+The runtimes view filters the full check list to language runtime probes only — Node.js, Python, Java, Go, Rust — comparing installed versions against required ranges and flagging PATH mismatches.
+
+![Category Filtering & Runtime Diagnostics](docs/screenshots/runtimes-view.png)
+
+### 4. Sanitized Report Export Preview
+
+The export modal previews the generated Markdown or JSON report with all secrets automatically redacted before saving, showing exactly what will be written to disk with zero credential leakage.
+
+![Sanitized Report Export Preview](docs/screenshots/export-modal.png)
 
 ---
 
